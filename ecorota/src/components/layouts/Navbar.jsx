@@ -3,6 +3,7 @@ import Container from './Container';
 import styles from './Navbar.module.css'
 import logo from '../../assets/images/ecorota_logo.png'
 import { useState } from 'react'
+import arrowDropDown from '../../assets/images/caret-down.png'
 
 function Navbar({ customClass }) {
 
@@ -33,6 +34,7 @@ function Navbar({ customClass }) {
                         <span onClick={() => setOpenDropdown(!openDropdown)}>
                             Serviços
                         </span>
+                        <img src={arrowDropDown} className={styles.arrowDropDown} onClick={() => setOpenDropdown(!openDropdown)}></img>
 
                         {openDropdown && (
                             <ul className={styles.dropdownMenu}>

@@ -1,12 +1,12 @@
 .logoNav img{
-    width: 70px;
-    height: 70px;
+    width: 150px;
+    height: 100px;
 }
 
 .navbar{
     display:flex;
     justify-content: space-between;
-    background-color: #222;
+    background-color: #5FBE6D;
     padding: 1em;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .item a:hover{
-    color: #ffbb33;
+    color: #175921;
 }
 
 .dropdown {
@@ -42,15 +42,21 @@
     color: #fff;
 }
 
+.arrowDropDown{
+    width:15px;
+    height:10px;
+}
+
 .dropdown span:hover {
-    color: #ffbb33;
+    color: #175921;
 }
 
 .dropdownMenu {
     position: absolute;
     top: 35px;
-    left: 0;
-    background: #222;
+    right:-50px;
+    border-radius:20px;
+    background: #5DA84E;
     list-style: none;
     padding: 0.5em 0;
     min-width: 180px;
@@ -66,5 +72,5 @@
 }
 
 .dropdownMenu li a:hover {
-    color: #ffbb33;
+    color: #175921;
 }
