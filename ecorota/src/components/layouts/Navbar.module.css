@@ -1,0 +1,70 @@
+.logoNav img{
+    width: 70px;
+    height: 70px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1em;
+}
+
+.list{
+    display: flex;
+
+    /* tira a bolinha a esquerda onde fica os itens em lista */
+    list-style: none; 
+    align-items: center;
+}
+
+.item{
+    margin-right: 1em;
+}
+
+.item a{
+    color: #fff;
+
+    /* tira o sublinhado do link */
+    text-decoration: none;   
+}
+
+.item a:hover{
+    color: #ffbb33;
+}
+
+.dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown span {
+    color: #fff;
+}
+
+.dropdown span:hover {
+    color: #ffbb33;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background: #222;
+    list-style: none;
+    padding: 0.5em 0;
+    min-width: 180px;
+}
+
+.dropdownMenu li {
+    padding: 0.5em 1em;
+}
+
+.dropdownMenu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdownMenu li a:hover {
+    color: #ffbb33;
+}
