@@ -1,0 +1,39 @@
+
+.h1 {
+    color:#5DA84E;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; 
+    font-size: 60px;
+}
+
+.h3 {
+    color:#5DA84E;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300; 
+    font-size: 45px;
+}
+
+.portalImage {
+    width: 1200px;
+    opacity: 0.7;
+    
+    display: block;
+}
+
+.portalContainer {
+    position: relative;
+}
+
+.buttonOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
